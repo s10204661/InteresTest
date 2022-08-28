@@ -69,13 +69,53 @@ body{
     background-color:white;
     padding-left: 20px;
     padding-right: 20px;
+    flex-direction: column;
 }
 
 .banner{
+    display: flex;
     flex: 1;
     margin: 20px;
-    min-width: 600px;
-    min-height: 300px;
     align-items: center;
     justify-content: center;
+    background-image:url("greybanner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    float: left;
+}
+#banner1{
+    background-image:url("greybanner.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#banner2{
+    background-image:url("greybanner.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#banner3{
+    background-image:url("greybanner.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#banner4{
+    background-image:url("greybanner.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner h3{
+    font-size: 25px;
+    font-weight: 900;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: inline-block;
+    position: relative;
 }
