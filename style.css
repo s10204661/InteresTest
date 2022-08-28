@@ -41,6 +41,7 @@ p{
 
 body{
     background-color: rgba(0, 255, 255, 0.348);
+    background-image: url("greyabstract.png");
 }
 
 .mainhead{
@@ -66,7 +67,7 @@ body{
     max-width: 1080px;
     margin: auto;
     display: flex;
-    background-color:white;
+    background-color:rgb(215, 240, 255);
     padding-left: 20px;
     padding-right: 20px;
     flex-direction: column;
@@ -78,7 +79,7 @@ body{
     margin: 20px;
     align-items: center;
     justify-content: center;
-    background-image:url("greybanner.png");
+    background-image:url("greyabstract.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -87,25 +88,25 @@ body{
     float: left;
 }
 #banner1{
-    background-image:url("greybanner.png");
+    background-image:url("greyabstract.png");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
 }
 #banner2{
-    background-image:url("greybanner.png");
+    background-image:url("greyabstract.png");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
 }
 #banner3{
-    background-image:url("greybanner.png");
+    background-image:url("greyabstract.png");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
 }
 #banner4{
-    background-image:url("greybanner.png");
+    background-image:url("greyabstract.png");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -118,4 +119,12 @@ body{
     margin-bottom: 40px;
     display: inline-block;
     position: relative;
+}
+
+footer ul{
+    flex-basis: 50%;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
