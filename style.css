@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/*navigation*/
 .navbar{
     display: flex;
     align-items: center;
@@ -35,6 +36,7 @@ a.hover{
     color: #555;
 }
 
+/*home-content*/
 p{
     color: #555;
 }
@@ -121,10 +123,57 @@ body{
     position: relative;
 }
 
-footer ul{
-    flex-basis: 50%;
-    padding-left: 50px;
+/*base*/
+footer{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+footer ul{
+    flex-basis: 33%;
+    min-width: 300px;
+    padding-left: 50px;
+    display: flex;
+    align-items: left;
     flex-direction: column;
+}
+
+form{
+    flex-basis: 33%;
+    border-radius: 10px;
+    background-color: #555;
+    padding: 20px;
+}
+
+.contact-name,.contact-email,.contact-msg{
+    border: 2px solid rgba(0, 255, 255, 0.348);
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.submit-btn{
+    display: inline-block;
+    background-color: darkblue;
+    color: white;
+    padding: 20px;
+    border: none;
+}
+
+.socials{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 33%;
+}
+.linkedin-btn{
+    padding: 12px;
+    border-radius: 4px;
+    margin:5px;
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    background-color: #3B5998;
+    color:white;
 }
